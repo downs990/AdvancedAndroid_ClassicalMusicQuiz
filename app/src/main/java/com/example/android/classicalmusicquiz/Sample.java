@@ -39,7 +39,7 @@ import java.util.ArrayList;
  * Java Object representing a single sample. Also includes utility methods for obtaining samples
  * from assets.
  */
-class Sample {
+public class Sample {
 
     private int mSampleID;
     private String mComposer;
