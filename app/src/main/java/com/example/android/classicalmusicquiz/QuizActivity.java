@@ -23,11 +23,12 @@ import android.graphics.PorterDuff;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.google.android.exoplayer2.DefaultLoadControl;
 import com.google.android.exoplayer2.ExoPlayerFactory;
@@ -69,6 +70,10 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         mPlayerView = (SimpleExoPlayerView) findViewById(R.id.playerView);
 
         // TODO (1): Create a layout file called exo_playback_control_view to override the playback control layout.
+
+        
+
+
 
         boolean isNewGame = !getIntent().hasExtra(REMAINING_SONGS_KEY);
 
