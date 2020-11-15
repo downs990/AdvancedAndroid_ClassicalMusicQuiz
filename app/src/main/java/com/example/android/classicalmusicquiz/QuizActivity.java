@@ -71,7 +71,7 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
 
         // TODO (1): Create a layout file called exo_playback_control_view to override the playback control layout.
 
-        
+
 
 
 
